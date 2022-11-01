@@ -25,9 +25,9 @@ async def upaudio(client, message, msg, file_loc, fname=None):
     probe = await stream_creator(file_loc)
     #logger.info(probe)
     duration = int(float(probe["format"]["duration"]))
-    if probe and probe["format"]["tags"]["title"]:
+    if 'tittle' in probe["format"]["tags"]:
         title = probe["format"]["tags"]["title"]
-    if probe and probe["format"]["tags"]["artist"]:
+    if 'artist' in probe["format"]["tags"]:
         artist = probe["format"]["tags"]["artist"]
         
     """
