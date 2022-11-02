@@ -15,7 +15,7 @@ async def upaudio(client, message, msg, file_loc, fname=None):
     #logger.info(message)
     #return
     #
-    await msg.edit(f"✏️ Metadata Writing...")
+    await msg.edit(f"✏️ Adding Metadata...")
     
     title = None
     artist = None
