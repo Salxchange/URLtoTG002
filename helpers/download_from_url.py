@@ -86,7 +86,7 @@ Downloaded: {}
                             and current_message != "empty"
                         ):
                             print(current_message)
-                            await event.edit(current_message, parse_mode="html")
+                            await event.edit(current_message)
                             
                             display_message = current_message
                     except Exception as e:
