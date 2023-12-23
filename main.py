@@ -13,7 +13,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 download_path = "Downloads/"
 
-api_id = int("21027612"))
+api_id = int("21027612")
 api_hash = os.environ.get("b36c5dc986f77eedd4bbf356b65eab19")
 bot_token =os.environ.get("6674658195:AAHsHULeeoW5_z17Ia9gLSux9Er30HbbnNI")
 
